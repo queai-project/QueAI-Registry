@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-19",
   "schema_version": 2,
   "plugins": [
     {
@@ -51,18 +51,29 @@
       "name": "BriefScope Cloud (OpenAI)",
       "description": "Agente que analiza y genera documentos. Analiza los archivos que subes (PDF, DOCX, XLSX, TXT, MD) y genera entregables descargables (PDF, DOCX, XLSX, PPTX, MD, TXT), con búsqueda RAG sobre tu contenido. Versión CLOUD OpenAI: LLM y embeddings de OpenAI (modelos GPT); requiere una API key de OpenAI.",
       "description_en": "Agent that analyzes and generates documents. It analyzes your uploaded files (PDF, DOCX, XLSX, TXT, MD) and generates downloadable deliverables (PDF, DOCX, XLSX, PPTX, MD, TXT), with RAG search over your content. CLOUD OpenAI version: OpenAI LLM and embeddings (GPT models); requires an OpenAI API key.",
-      "version": "1.4.0",
+      "version": "1.7.6",
       "author": "DaviDTR1",
       "git_url": "https://github.com/DaviDTR1/briefscope-cloud-openai.git",
       "logo_url": "https://raw.githubusercontent.com/DaviDTR1/briefscope-cloud-openai/main/assets/logo.png",
       "category": "Documents"
     },
     {
+      "id": "afef0278-5358-4386-9629-9c982293094a",
+      "name": "BriefScope Cloud (Gemini)",
+      "description": "Agente que analiza y genera documentos. Analiza los archivos que subes (PDF, DOCX, XLSX, TXT, MD) y genera entregables descargables (PDF, DOCX, XLSX, PPTX, MD, TXT), con búsqueda RAG sobre tu contenido. Versión CLOUD Gemini: LLM y embeddings de Google (modelos Gemini); requiere una API key de Google.",
+      "description_en": "Agent that analyzes and generates documents. It analyzes your uploaded files (PDF, DOCX, XLSX, TXT, MD) and generates downloadable deliverables (PDF, DOCX, XLSX, PPTX, MD, TXT), with RAG search over your content. CLOUD Gemini version: Google LLM and embeddings (Gemini models); requires a Google API key.",
+      "version": "1.7.6",
+      "author": "DaviDTR1",
+      "git_url": "https://github.com/DaviDTR1/briefscope-cloud-gemini.git",
+      "logo_url": "https://raw.githubusercontent.com/DaviDTR1/briefscope-cloud-gemini/main/assets/logo.png",
+      "category": "Documents"
+    },
+    {
       "id": "e7c91bac-b4f1-4e4b-bc2f-31397bc72190",
       "name": "BriefScope Local CPU",
-      "description": "Agente que analiza y genera documentos. Analiza los archivos que subes (PDF, DOCX, XLSX, TXT, MD) y genera entregables descargables (PDF, DOCX, XLSX, PPTX, MD, TXT), con búsqueda RAG sobre tu contenido. Versión LOCAL CPU: LLM vía Ollama y embeddings locales (sentence-transformers) en CPU; sin internet ni API keys.",
-      "description_en": "Agent that analyzes and generates documents. It analyzes your uploaded files (PDF, DOCX, XLSX, TXT, MD) and generates downloadable deliverables (PDF, DOCX, XLSX, PPTX, MD, TXT), with RAG search over your content. LOCAL CPU version: LLM via Ollama and local embeddings (sentence-transformers) on CPU; no internet or API keys required.",
-      "version": "1.4.0",
+      "description": "Agente que analiza y genera documentos. Analiza los archivos que subes (PDF, DOCX, XLSX, TXT, MD) y genera entregables descargables (PDF, DOCX, XLSX, PPTX, MD, TXT), con búsqueda RAG sobre tu contenido. Versión LOCAL CPU: LLM y embeddings locales vía Ollama (nomic-embed-text por defecto) en CPU; sin internet ni API keys.",
+      "description_en": "Agent that analyzes and generates documents. It analyzes your uploaded files (PDF, DOCX, XLSX, TXT, MD) and generates downloadable deliverables (PDF, DOCX, XLSX, PPTX, MD, TXT), with RAG search over your content. LOCAL CPU version: LLM and local embeddings via Ollama (nomic-embed-text by default) on CPU; no internet or API keys required.",
+      "version": "1.7.6",
       "author": "DaviDTR1",
       "git_url": "https://github.com/DaviDTR1/briefscope-local-cpu.git",
       "logo_url": "https://raw.githubusercontent.com/DaviDTR1/briefscope-local-cpu/main/assets/logo.png",
@@ -71,9 +82,9 @@
     {
       "id": "657f4e34-3598-4ca9-a146-534218128ed4",
       "name": "BriefScope Local GPU",
-      "description": "Agente que analiza y genera documentos. Analiza los archivos que subes (PDF, DOCX, XLSX, TXT, MD) y genera entregables descargables (PDF, DOCX, XLSX, PPTX, MD, TXT), con búsqueda RAG sobre tu contenido. Versión LOCAL GPU: LLM vía Ollama y embeddings locales (sentence-transformers) acelerados por GPU NVIDIA; sin internet ni API keys.",
-      "description_en": "Agent that analyzes and generates documents. It analyzes your uploaded files (PDF, DOCX, XLSX, TXT, MD) and generates downloadable deliverables (PDF, DOCX, XLSX, PPTX, MD, TXT), with RAG search over your content. LOCAL GPU version: LLM via Ollama and local embeddings (sentence-transformers) accelerated by an NVIDIA GPU; no internet or API keys required.",
-      "version": "1.4.0",
+      "description": "Agente que analiza y genera documentos. Analiza los archivos que subes (PDF, DOCX, XLSX, TXT, MD) y genera entregables descargables (PDF, DOCX, XLSX, PPTX, MD, TXT), con búsqueda RAG sobre tu contenido. Versión LOCAL GPU: LLM y embeddings locales vía Ollama (nomic-embed-text por defecto) acelerados por GPU NVIDIA; sin internet ni API keys.",
+      "description_en": "Agent that analyzes and generates documents. It analyzes your uploaded files (PDF, DOCX, XLSX, TXT, MD) and generates downloadable deliverables (PDF, DOCX, XLSX, PPTX, MD, TXT), with RAG search over your content. LOCAL GPU version: LLM and local embeddings via Ollama (nomic-embed-text by default) accelerated by an NVIDIA GPU; no internet or API keys required.",
+      "version": "1.7.6",
       "author": "DaviDTR1",
       "git_url": "https://github.com/DaviDTR1/briefscope-local-gpu.git",
       "logo_url": "https://raw.githubusercontent.com/DaviDTR1/briefscope-local-gpu/main/assets/logo.png",
